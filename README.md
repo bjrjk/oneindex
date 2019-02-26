@@ -1,3 +1,12 @@
+#修复了伪静态开启后，无法访问二级目录的bug
+呃呃,其实就是把.htaccess改了名字
+#另外如果出现空白页的情况，请更新
+  'client_secret' => 'xxxxxxxxxxxxxxxxxxx',
+  'client_id' => 'xxxxxxxxxxxxxxxx',
+
+  不需要重装，手动修改/config/base.php即可
+  若还有问题，请进入后台页面重建缓存
+--------------------------------------
 # OneIndex
 Onedrive Directory Index
 
