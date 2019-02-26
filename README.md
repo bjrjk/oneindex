@@ -1,6 +1,6 @@
 #修复了伪静态开启后，无法访问二级目录的bug
 呃呃,其实就是把.htaccess改了名字
-#另外如果出现空白页的情况，请更新
+#另外如果出现空白页的情况，请更新令牌，也就是这两个值
   'client_secret' => 'xxxxxxxxxxxxxxxxxxx',
   'client_id' => 'xxxxxxxxxxxxxxxx',
 
