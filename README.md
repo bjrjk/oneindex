@@ -1,11 +1,17 @@
-#修复了伪静态开启后，无法访问二级目录的bug
+# 1.修复了伪静态开启后，无法访问二级目录的bug：
 呃呃,其实就是把.htaccess改了名字
-#另外如果出现空白页的情况，请更新令牌，也就是这两个值
+# 2.另外如果出现空白页的情况，请更新 应用 ID(client_id)和应用机密(client secret)
   'client_secret' => 'xxxxxxxxxxxxxxxxxxx',
   'client_id' => 'xxxxxxxxxxxxxxxx',
 
+# 食用方法：
+  在浏览器里打开：https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl={$redirect_uri}&platform=option-php
+  <img width="658" alt="image" src="http://i2.bvimg.com/524586/8e7dd598b10b0296.jpg">
+  点击Get an app ID and secret
+  
   不需要重装，手动修改/config/base.php即可
-  若还有问题，请进入后台页面重建缓存
+  若还有问题，请重建缓存
+  
 --------------------------------------
 # OneIndex
 Onedrive Directory Index
